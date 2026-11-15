@@ -1,0 +1,49 @@
+Registro 001 — O filme fictício “A Cidade de Vidro” estreou no ano inventado de 1988, tem gênero aventura e integra a franquia fictícia “Mapas do Infinito”. Alina Valença dirigiu o filme “A Cidade de Vidro”. Alina Vasconcelos atuou no filme “A Cidade de Vidro” como a personagem fictícia “Aren Vento”.
+
+Registro 002 — O filme fictício “A Cidade das Cinzas” estreou no ano inventado de 1995, tem gênero fantasia e integra a franquia fictícia “Círculo das Estações”. Bento Valença dirigiu o filme “A Cidade das Cinzas”. Bento Vasconcelos atuou no filme “A Cidade das Cinzas” como a personagem fictícia “Belis Vento”.
+
+Registro 003 — O filme fictício “A Cidade do Norte” estreou no ano inventado de 2002, tem gênero suspense e integra a franquia fictícia “Travessia de Órion”. Caio Valença dirigiu o filme “A Cidade do Norte”. Caio Vasconcelos atuou no filme “A Cidade do Norte” como a personagem fictícia “Ciro Vento”.
+
+Registro 004 — O filme fictício “A Cidade de Saturno” estreou no ano inventado de 2009, tem gênero documentário e integra a franquia fictícia “Constelação de Jade”. Dara Valença dirigiu o filme “A Cidade de Saturno”. Dara Vasconcelos atuou no filme “A Cidade de Saturno” como a personagem fictícia “Dália Vento”.
+
+Registro 005 — O filme fictício “A Cidade dos Relógios” estreou no ano inventado de 2016, tem gênero mistério e integra a franquia fictícia “Portais de Safira”. Elisa Valença dirigiu o filme “A Cidade dos Relógios”. Elisa Vasconcelos atuou no filme “A Cidade dos Relógios” como a personagem fictícia “Eron Vento”.
+
+Registro 006 — O filme fictício “O Jardim de Vidro” estreou no ano inventado de 2023, tem gênero comédia e integra a franquia fictícia “Cidades da Aurora”. Fábio Valença dirigiu o filme “O Jardim de Vidro”. Fábio Vasconcelos atuou no filme “O Jardim de Vidro” como a personagem fictícia “Fira Vento”.
+
+Registro 007 — O filme fictício “O Jardim das Cinzas” estreou no ano inventado de 1991, tem gênero romance e integra a franquia fictícia “Lendas do Horizonte”. Gael Valença dirigiu o filme “O Jardim das Cinzas”. Gael Vasconcelos atuou no filme “O Jardim das Cinzas” como a personagem fictícia “Garen Vento”.
+
+Registro 008 — O filme fictício “O Jardim do Norte” estreou no ano inventado de 1998, tem gênero ficção científica e integra a franquia fictícia “Crônicas do Vento Norte”. Helena Valença dirigiu o filme “O Jardim do Norte”. Helena Vasconcelos atuou no filme “O Jardim do Norte” como a personagem fictícia “Halia Vento”.
+
+Registro 009 — O filme fictício “O Jardim de Saturno” estreou no ano inventado de 2005, tem gênero drama e integra a franquia fictícia “Relatos do Mar Antigo”. Ícaro Valença dirigiu o filme “O Jardim de Saturno”. Ícaro Vasconcelos atuou no filme “O Jardim de Saturno” como a personagem fictícia “Ilan Vento”.
+
+Registro 010 — O filme fictício “O Jardim dos Relógios” estreou no ano inventado de 2012, tem gênero animação e integra a franquia fictícia “Arquivos de Ametista”. Joana Valença dirigiu o filme “O Jardim dos Relógios”. Joana Vasconcelos atuou no filme “O Jardim dos Relógios” como a personagem fictícia “Jori Vento”.
+
+Registro 011 — O filme fictício “A Última de Vidro” estreou no ano inventado de 2019, tem gênero aventura e integra a franquia fictícia “Mapas do Infinito”. Kai Valença dirigiu o filme “A Última de Vidro”. Kai Vasconcelos atuou no filme “A Última de Vidro” como a personagem fictícia “Aren Sol”.
+
+Registro 012 — O filme fictício “A Última das Cinzas” estreou no ano inventado de 2026, tem gênero fantasia e integra a franquia fictícia “Círculo das Estações”. Lia Valença dirigiu o filme “A Última das Cinzas”. Lia Vasconcelos atuou no filme “A Última das Cinzas” como a personagem fictícia “Belis Sol”.
+
+Registro 013 — O filme fictício “A Última do Norte” estreou no ano inventado de 1994, tem gênero suspense e integra a franquia fictícia “Travessia de Órion”. Mauro Valença dirigiu o filme “A Última do Norte”. Mauro Vasconcelos atuou no filme “A Última do Norte” como a personagem fictícia “Ciro Sol”.
+
+Registro 014 — O filme fictício “A Última de Saturno” estreou no ano inventado de 2001, tem gênero documentário e integra a franquia fictícia “Constelação de Jade”. Nina Valença dirigiu o filme “A Última de Saturno”. Nina Vasconcelos atuou no filme “A Última de Saturno” como a personagem fictícia “Dália Sol”.
+
+Registro 015 — O filme fictício “A Última dos Relógios” estreou no ano inventado de 2008, tem gênero mistério e integra a franquia fictícia “Portais de Safira”. Otávio Valença dirigiu o filme “A Última dos Relógios”. Otávio Vasconcelos atuou no filme “A Última dos Relógios” como a personagem fictícia “Eron Sol”.
+
+Registro 016 — O filme fictício “As Sombras de Vidro” estreou no ano inventado de 2015, tem gênero comédia e integra a franquia fictícia “Cidades da Aurora”. Paula Valença dirigiu o filme “As Sombras de Vidro”. Paula Vasconcelos atuou no filme “As Sombras de Vidro” como a personagem fictícia “Fira Sol”.
+
+Registro 017 — O filme fictício “As Sombras das Cinzas” estreou no ano inventado de 2022, tem gênero romance e integra a franquia fictícia “Lendas do Horizonte”. Ravi Valença dirigiu o filme “As Sombras das Cinzas”. Ravi Vasconcelos atuou no filme “As Sombras das Cinzas” como a personagem fictícia “Garen Sol”.
+
+Registro 018 — O filme fictício “As Sombras do Norte” estreou no ano inventado de 1990, tem gênero ficção científica e integra a franquia fictícia “Crônicas do Vento Norte”. Sofia Valença dirigiu o filme “As Sombras do Norte”. Sofia Vasconcelos atuou no filme “As Sombras do Norte” como a personagem fictícia “Halia Sol”.
+
+Registro 019 — O filme fictício “As Sombras de Saturno” estreou no ano inventado de 1997, tem gênero drama e integra a franquia fictícia “Relatos do Mar Antigo”. Tomás Valença dirigiu o filme “As Sombras de Saturno”. Tomás Vasconcelos atuou no filme “As Sombras de Saturno” como a personagem fictícia “Ilan Sol”.
+
+Registro 020 — O filme fictício “As Sombras dos Relógios” estreou no ano inventado de 2004, tem gênero animação e integra a franquia fictícia “Arquivos de Ametista”. Yara Valença dirigiu o filme “As Sombras dos Relógios”. Yara Vasconcelos atuou no filme “As Sombras dos Relógios” como a personagem fictícia “Jori Sol”.
+
+Registro 021 — O filme fictício “O Segredo de Vidro” estreou no ano inventado de 2011, tem gênero aventura e integra a franquia fictícia “Mapas do Infinito”. Alina Nogueira dirigiu o filme “O Segredo de Vidro”. Alina Tavares atuou no filme “O Segredo de Vidro” como a personagem fictícia “Aren Mar”.
+
+Registro 022 — O filme fictício “O Segredo das Cinzas” estreou no ano inventado de 2018, tem gênero fantasia e integra a franquia fictícia “Círculo das Estações”. Bento Nogueira dirigiu o filme “O Segredo das Cinzas”. Bento Tavares atuou no filme “O Segredo das Cinzas” como a personagem fictícia “Belis Mar”.
+
+Registro 023 — O filme fictício “O Segredo do Norte” estreou no ano inventado de 2025, tem gênero suspense e integra a franquia fictícia “Travessia de Órion”. Caio Nogueira dirigiu o filme “O Segredo do Norte”. Caio Tavares atuou no filme “O Segredo do Norte” como a personagem fictícia “Ciro Mar”.
+
+Registro 024 — O filme fictício “O Segredo de Saturno” estreou no ano inventado de 1993, tem gênero documentário e integra a franquia fictícia “Constelação de Jade”. Dara Nogueira dirigiu o filme “O Segredo de Saturno”. Dara Tavares atuou no filme “O Segredo de Saturno” como a personagem fictícia “Dália Mar”.
+
+Registro 025 — O filme fictício “O Segredo dos Relógios” estreou no ano inventado de 2000, tem gênero mistério e integra a franquia fictícia “Portais de Safira”. Elisa Nogueira dirigiu o filme “O Segredo dos Relógios”. Elisa Tavares atuou no filme “O Segredo dos Relógios” como a personagem fictícia “Eron Mar”.

@@ -1,0 +1,19 @@
+name: cinegrafo
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    environment:
+      NEO4J_URI: bolt://host.docker.internal:7687
+      EMBEDDING_CACHE_DIR: /app/data/embedding_models
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - app_data:/app/data
+
+volumes:
+  app_data:

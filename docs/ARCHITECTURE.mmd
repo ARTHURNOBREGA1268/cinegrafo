@@ -1,0 +1,44 @@
+flowchart TB
+  subgraph ING["1. Ingestão e modelagem"]
+    direction LR
+    DOC["Documentos autorizados<br/>TXT · PDF · DOCX"] --> CHUNK["Segmentação em trechos<br/>chunking"]
+    CHUNK --> EMB_DOC["FastEmbed local · input_type=document<br/>MiniLM multilíngue · 384d"]
+    CHUNK --> EXTRACT["Claude Messages API<br/>extração estruturada JSON"]
+    EXTRACT --> VALID["Validação de tipos,<br/>relações e evidências"]
+    VALID --> LPG["Neo4j LPG<br/>Sources · Chunks · Entities · relações"]
+    EMB_DOC --> LPG
+  end
+
+  subgraph RET["2. Consulta e recuperação híbrida"]
+    direction LR
+    QUESTION["Pergunta do usuário"] --> EMB_QUERY["FastEmbed local · input_type=query<br/>mesmo MiniLM · 384d"]
+    QUESTION --> FTAND["Full-text AND"]
+    QUESTION --> FTOR["Full-text OR"]
+    EMB_QUERY --> VECTOR["Índice vetorial Neo4j<br/>similaridade cosseno"]
+    LPG --> VECTOR
+    LPG --> FTAND
+    LPG --> FTOR
+    VECTOR --> RRF["RRF<br/>vetorial + AND + OR<br/>Σ 1 / (60 + rank)"]
+    FTAND --> RRF
+    FTOR --> RRF
+    RRF --> CYPHER["Cypher estático allowlisted<br/>âncoras quando encontradas; fallback aos trechos<br/>expansão somente leitura · 1–2 saltos"]
+    QUESTION --> CYPHER
+    LPG --> CYPHER
+    CYPHER --> SHORTEST["shortestPath<br/>âncora da pergunta → destino a 2 saltos"]
+    RRF --> EVIDENCE
+    CYPHER --> EVIDENCE["Trechos recuperados + subgrafo<br/>nós · arestas · fontes"]
+    PATH --> EVIDENCE
+  end
+
+  QUESTION --> GENERATE["Claude Messages API<br/>geração fundamentada"]
+  EVIDENCE --> GENERATE
+  GENERATE --> ANSWER["Resposta apoiada em evidências<br/>citações de chunks e proveniência"]
+  ANSWER --> UI["Streamlit<br/>resposta · subgrafo · Cypher · evidências"]
+  classDef external fill:#f4e9ff,stroke:#6f42c1,color:#222;
+  classDef store fill:#e8f3ff,stroke:#2368a0,color:#222;
+  classDef local fill:#fff3d6,stroke:#bd7e00,color:#222;
+  classDef result fill:#e9f7ef,stroke:#31845b,color:#222;
+  class EXTRACT,GENERATE external;
+  class LPG store;
+  class EMB_DOC,EMB_QUERY local;
+  class ANSWER,UI result;
