@@ -22,6 +22,7 @@ O modelo `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` gera veto
 
 ## Documentação
 
+- Apresentação CineGrafo (10 slides): [`docs/06_apresentacao_cinegrafo.pptx`](docs/06_apresentacao_cinegrafo.pptx)
 - Setup da Anthropic: [`docs/CLAUDE_API.md`](docs/CLAUDE_API.md)
 - Embeddings locais, índice e migração não destrutiva: [`docs/EMBEDDINGS.md`](docs/EMBEDDINGS.md)
 - Comandos Windows e Neo4j Desktop: [`docs/COMANDOS_WINDOWS.md`](docs/COMANDOS_WINDOWS.md)
