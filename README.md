@@ -26,6 +26,7 @@ O modelo `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` gera veto
 - Embeddings locais, índice e migração não destrutiva: [`docs/EMBEDDINGS.md`](docs/EMBEDDINGS.md)
 - Comandos Windows e Neo4j Desktop: [`docs/COMANDOS_WINDOWS.md`](docs/COMANDOS_WINDOWS.md)
 - Documentação técnica: [`docs/README.md`](docs/README.md)
+- Apresentação do projeto 10Pila: [`docs/06_apresentacao_10pila.pptx`](docs/06_apresentacao_10pila.pptx)
 - Corpus de demonstração fictício: [`docs/examples/corpus/`](docs/examples/corpus/)
 
 ## Testes
