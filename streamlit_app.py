@@ -15,7 +15,7 @@ from cinegrafo.documents import extract_text
 from cinegrafo.graph import GraphStore
 from cinegrafo.schema import ensure_schema
 
-st.set_page_config(page_title="CineGrafo", page_icon=None, layout="wide")
+st.set_page_config(page_title="10Pila", page_icon=None, layout="wide")
 st.markdown(
     """
     <style>
@@ -252,7 +252,7 @@ def render_graph(db: GraphStore, question: str, k: int) -> None:
             yaxis={"visible": False},
             plot_bgcolor="rgba(0,0,0,0)",
             paper_bgcolor="rgba(0,0,0,0)",
-            uirevision="cinegrafo-graph",
+            uirevision="10pila-graph",
         )
         st.plotly_chart(figure, width="stretch", config={"scrollZoom": True, "displayModeBar": True})
         if len(graph_rows) > len(plot_rows):
@@ -315,7 +315,7 @@ def render_query(db: GraphStore) -> None:
     with st.expander("Parâmetros de recuperação", expanded=False):
         k = st.slider("Trechos de evidência", min_value=1, max_value=10, value=5)
 
-    with st.form("cinegrafo_query_form"):
+    with st.form("10pila_query_form"):
         selected = st.selectbox(
             "Pergunta sugerida",
             ["Escrever uma pergunta…", *EXAMPLES],
@@ -409,7 +409,7 @@ def render_catalog(db: GraphStore) -> None:
 try:
     db = store()
     with st.sidebar:
-        st.markdown("## CineGrafo")
+        st.markdown("## 10Pila")
         st.caption("GraphRAG · filmes e séries")
         page = st.radio(
             "Navegação",
@@ -431,7 +431,7 @@ try:
                 except Exception as exc:
                     st.error(f"Falha ao preparar Neo4j: {type(exc).__name__}: {exc}")
 
-    st.title("CineGrafo")
+    st.title("10Pila")
     st.caption("Explore relações entre obras, pessoas, personagens e gêneros — com evidências rastreáveis.")
 
     if page == "Consulta":

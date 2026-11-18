@@ -2,7 +2,7 @@
 
 ## Arquitetura
 
-O CineGrafo usa a API Claude para extração de entidades/relações e redação de respostas. Os embeddings são calculados dentro do container do aplicativo usando FastEmbed/ONNX Runtime e o modelo multilíngue `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, com vetores de 384 dimensões. A busca grava os vetores em `Chunk.embedding_local`; o índice Neo4j `chunk_embedding_local` usa similaridade cosseno. O retriever combina rankings vetorial, full-text AND e full-text OR por Reciprocal Rank Fusion (RRF).
+O 10Pila usa a API Claude para extração de entidades/relações e redação de respostas. Os embeddings são calculados dentro do container do aplicativo usando FastEmbed/ONNX Runtime e o modelo multilíngue `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, com vetores de 384 dimensões. A busca grava os vetores em `Chunk.embedding_local`; o índice Neo4j `chunk_embedding_local` usa similaridade cosseno. O retriever combina rankings vetorial, full-text AND e full-text OR por Reciprocal Rank Fusion (RRF).
 
 O modelo é livre para baixar e executar localmente, sem chave nem chamada a um serviço de embeddings. Na primeira execução que precisar de vetores, o app baixa os pesos do Hugging Face; depois, os arquivos permanecem no volume `app_data` em `/app/data/embedding_models`. A primeira inicialização requer internet e pode levar mais tempo. A inferência subsequente é local e utiliza CPU do computador.
 

@@ -1,4 +1,4 @@
-# Comandos Windows — CineGrafo + Claude + embeddings locais + Neo4j Desktop
+# Comandos Windows — 10Pila + Claude + embeddings locais + Neo4j Desktop
 
 Execute no PowerShell, na raiz extraída do projeto (pasta que contém `docker-compose.yml`).
 

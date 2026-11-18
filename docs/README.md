@@ -1,8 +1,8 @@
-# CineGrafo — documentação técnica
+# 10Pila — documentação técnica
 
 ## Visão geral
 
-CineGrafo é um protótipo acadêmico em Python 3.12, Streamlit, Neo4j, Anthropic Claude Messages API e FastEmbed local. Claude extrai entidades/relações de TXT/PDF/DOCX e redige respostas. FastEmbed/ONNX Runtime calcula vetores localmente usando `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 dimensões). Neo4j Desktop armazena o LPG e executa buscas vetoriais, full-text e Cypher. Nenhuma chave de embeddings é necessária. A interface usa navegação lateral por tarefa — consulta, ingestão e catálogo — para manter a tela principal focada no trabalho selecionado.
+10Pila é um protótipo acadêmico em Python 3.12, Streamlit, Neo4j, Anthropic Claude Messages API e FastEmbed local. Claude extrai entidades/relações de TXT/PDF/DOCX e redige respostas. FastEmbed/ONNX Runtime calcula vetores localmente usando `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 dimensões). Neo4j Desktop armazena o LPG e executa buscas vetoriais, full-text e Cypher. Nenhuma chave de embeddings é necessária. A interface usa navegação lateral por tarefa — consulta, ingestão e catálogo — para manter a tela principal focada no trabalho selecionado.
 
 Na ingestão, o app segmenta documentos, calcula embeddings localmente e chama Claude para extrair entidades e relações. FastEmbed também calcula localmente o vetor da pergunta; a consulta faz busca vetorial por cosseno e duas formulações full-text (AND/OR), e o Reciprocal Rank Fusion combina as três listas. A expansão Cypher estática, parametrizada e allowlisted prioriza âncoras presentes na pergunta (com fallback aos seeds dos trechos) e percorre até dois saltos. O shortestPath escolhe uma âncora e tenta alcançar um endpoint a dois saltos no subgrafo, ou um vizinho conectado se não houver caminho mais longo disponível. Regras conservadoras podem complementar/reparar relações explícitas sem novas chamadas Claude. Claude recebe pergunta, trechos e relações recuperados para gerar a resposta.
 
@@ -15,7 +15,7 @@ A Anthropic recebe documentos para extração e pergunta/evidências para geraç
 ## Estrutura
 
 ```text
-CineGrafo/
+10Pila/
 ├── cinegrafo/                 # cliente Claude, embeddings locais, Neo4j e recuperação
 ├── tests/                     # testes unitários
 ├── scripts/generate_demo_corpus.py # gerador reproduzível dos exemplos sintéticos
